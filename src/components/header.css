@@ -1,0 +1,20 @@
+header {
+}
+
+.hero-image {
+  background-image: url(../images/roriver-background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+@media screen and (max-width: 1480px) {
+  .hero-image {
+    background-image: url(../images/roriver-background-halfscreen.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+}

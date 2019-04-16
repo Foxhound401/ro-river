@@ -1,0 +1,26 @@
+footer {
+  font-family: "Josefin Sans";
+  height: 234px;
+}
+
+footer > h1, h2, p, div > h2 {
+  font-family: "Josefin Sans";
+}
+
+.container {
+  top: 20%;
+  position: center
+}
+
+.logo {
+  width: 80%;
+  height: 80%;
+}
+
+.icon-social {
+}
+.icon > img {
+  width: 83px;
+  height: 83px;
+  margin: 5px;
+}
