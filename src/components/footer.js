@@ -6,22 +6,28 @@ import twitterIcon from "../images/twitter.svg"
 
 const Footer = () => (
   <footer>
-    <div className="container">
-      <div className="row">
-        <div className="logo col">
+    <div className="container-fluid footer-wrapper">
+      <div className="row no-glutters">
+        <div className="logo col col-lg-3 col-sm-3">
           <img src={logo} alt="logo" />
         </div>
-        <div className="copyright col-6">
-          <h2> ban quyen thuoc ve 2019 roriver</h2>
-          <p>info@roriver.vn</p>
+        <div className="col-6 col-lg-6 col-sm-6">
+          <div className="copyright">
+            <h2 className="text-copyright">
+              Bản quyền thuộc về 2019 &#169; Rô River
+            </h2>
+            <p>info@roriver.vn</p>
+          </div>
         </div>
-        <div className="icon-social col">
-          <i className="icon">
-            <img src={facebookIcon} />
-          </i>
-          <i className="icon">
-            <img src={twitterIcon} />
-          </i>
+        <div className="col col-lg-3 col-sm-3">
+          <div className="icon-social">
+            <i className="icon">
+              <img src={facebookIcon} />
+            </i>
+            <i className="icon">
+              <img src={twitterIcon} />
+            </i>
+          </div>
         </div>
       </div>
     </div>

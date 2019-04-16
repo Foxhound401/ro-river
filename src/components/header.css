@@ -18,3 +18,13 @@ header {
     height: 100vh;
   }
 }
+
+@media screen and (max-width: 968px) {
+  .hero-image {
+    background-image: url(../images/i_phone_x_2.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 55vh;
+  }
+}
