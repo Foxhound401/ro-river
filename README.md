@@ -1,6 +1,4 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-
-    ![Ro River](https://github.com/Foxhound401/ro-river/blob/master/src/images/ro_river_logo_04.jpg)
+![Ro River](https://github.com/Foxhound401/ro-river/blob/master/src/images/ro_river_logo_04.jpg)
 
 <h1 align="center">
     Ro River landing page
