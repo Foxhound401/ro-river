@@ -1,7 +1,8 @@
 footer {
   font-family: "Josefin Sans";
-  font-style: light;
-  height: 234px;
+  font-weight: normal;
+  height: 210px;
+  font-size: 0.75rem;
 }
 
 footer > h1,
@@ -9,7 +10,7 @@ h2,
 p,
 div > h2 {
   font-family: "Josefin Sans";
-  font-style: 300;
+  font-weight: normal;
 }
 
 .footer-wrapper {
@@ -28,17 +29,22 @@ div > h2 {
 }
 
 .icon-social {
+  padding-top: 20px;
   text-align: center;
+}
+
+.icon {
+  padding-right: 30px;
 }
 
 .icon > img {
   margin-right: 20px;
-  width: 83px;
+  width: 73px;
   height: auto;
 }
 
 .copyright {
-  padding-top: 30px;
+  padding-top: 38px;
   color: #707070;
   vertical-align: middle;
 }
@@ -53,24 +59,41 @@ div > h2 {
 }
 
 @media screen and (max-width: 1480px) {
+  .icon {
+    padding-right: 20px;
+  }
   .icon > img {
     padding-top: 15px;
+  }
+
+  .icon-social {
+    padding-top: 10px;
   }
 
   footer > h1,
   div > h2,
   p {
-    font-size: 95%;
+    font-size: 1.3rem;
   }
 
   .logo > img {
     padding-left: 0;
+  }
+
+  .copyright {
+    padding-top: 30px;
   }
 }
 
 @media screen and (max-width: 968px) {
+  .icon {
+    padding-right: 0;
+  }
   .logo > img {
+    padding-top: 10px;
     padding-left: 0;
+    width: auto;
+    height: 100px;
   }
   .icon > img {
     margin-right: 10px;
@@ -79,10 +102,18 @@ div > h2 {
     height: auto;
   }
 
+  .icon-social {
+    padding-top: 10px;
+  }
+
+  .copyright {
+    padding-top: 30px;
+  }
+
   footer > h1,
   div > h2,
   p {
-    font-size: 95%;
+    font-size: 1rem;
   }
 }
 
@@ -94,18 +125,26 @@ div > h2 {
     margin-top: 20px;
   }
 
+  .icon {
+    padding-right: 0;
+  }
+
+  .copyright {
+    padding-top: 38px;
+  }
+
   .icon-social {
     text-align: center;
     padding-left: 0;
-    padding-top: 30px;
+    padding-top: 20px;
     vertical-align: middle;
   }
   .col {
     padding-left: 0;
   }
   .icon > img {
-    margin-right: 3px;
-    width: 25px;
+    margin-right: 7px;
+    width: 35px;
     height: auto;
   }
 

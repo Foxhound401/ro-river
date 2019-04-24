@@ -1,0 +1,76 @@
+section {
+  font-family: "Josefin Sans";
+  font-size: 1rem;
+}
+
+.email-section {
+  height: 100vh;
+  //background-color: red;
+  background-color: #e1d8cf;
+  font-family: "Josefin Sans";
+  text-align: center;
+  padding-top: 18%;
+}
+
+.email-section > h1,
+h2,
+p,
+div > h1,
+div > h3 {
+  font-family: "Josefin Sans";
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+
+.pre-text-email > h1 {
+  color: #c04446;
+}
+
+.pre-text-email > h3 {
+  color: #707070;
+}
+
+.email-input-wrapper {
+  padding: 30px;
+  padding-right: 10%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 35px 20px;
+  grid-template-areas:
+    "a a b"
+    "a a b";
+}
+
+.wrapper-email {
+  grid-area: a;
+  text-align: right;
+}
+
+.wrapper-button {
+  grid-area: b;
+  text-align: left;
+}
+
+.email-box {
+  height: 55px;
+  width: 611px;
+  border-radius: 0;
+  border: 3px solid #c04446;
+}
+
+.button-register {
+  height: 55px;
+  width: 80px;
+}
+
+@media screen and (max-width: 1480px) {
+  .email-section {
+    padding-top: 25%;
+  }
+}
+
+@media screen and (max-width: 968px) {
+  .email-section {
+    padding-top: 39%;
+  }
+}
