@@ -1,8 +1,7 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Ro River" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
+    <a href="">
+        <img alt="Ro River" src="https://github.com/Foxhound401/ro-river/blob/master/src/images/ro_river_logo_04.jpg" width="60" />
+    </a>
 </p>
 <h1 align="center">
     Ro River landing page
