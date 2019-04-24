@@ -1,12 +1,14 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-
-    ![Ro River](https://github.com/Foxhound401/ro-river/blob/master/src/images/ro_river_logo_04.jpg)
-
+<p align="center">
+  <a href="https://www.gatsbyjs.org">
+    <img alt="Ro River" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+  </a>
+</p>
 <h1 align="center">
     Ro River landing page
 </h1>
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+Some text to keep it look like a professional developer, jargons and slang... 
 
 ## 🚀 Quick start
 
