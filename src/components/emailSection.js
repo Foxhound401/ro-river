@@ -7,14 +7,19 @@ const EmailSection = () => (
       <div className="col pre-text-email">
         <h1>Đăng kí nhận thông báo</h1>
         <h3>
-          Hãy để lại email để nhận được những thông tin mới nhất. Cam kết không
-          spam
+          Hãy để lại email để nhận được những thông tin mới nhất.
+          <br /> Cam kết không spam.
         </h3>
       </div>
     </div>
     <div className="row email-input-wrapper ">
       <div className="wrapper-email">
-        <input className="email-box" type="email" value="" />
+        <input
+          className="email-box"
+          type="email"
+          value=""
+          placeholder="   Email cua ban"
+        />
       </div>
       <div className="wrapper-button">
         <input className="button-register" type="submit" value="Dang ki" />

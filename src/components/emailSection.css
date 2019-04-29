@@ -9,33 +9,36 @@ section {
   background-color: #e1d8cf;
   font-family: "Josefin Sans";
   text-align: center;
-  padding-top: 18%;
+  padding-top: 15%;
 }
 
 .email-section > h1,
-h2,
-p,
-div > h1,
-div > h3 {
+.email-section > p,
+.email-section > h2 {
   font-family: "Josefin Sans";
   font-weight: normal;
-  font-size: 1.5rem;
 }
 
 .pre-text-email > h1 {
+  font-family: "Josefin Sans";
+  font-size: 2.8rem;
   color: #c04446;
+  padding-bottom: 40px;
+  font-weight: bold;
 }
 
 .pre-text-email > h3 {
+  font-family: "Josefin Sans";
+  font-weight: normal;
   color: #707070;
+  font-size: 1.5rem;
 }
 
 .email-input-wrapper {
   padding: 30px;
-  padding-right: 10%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 35px 20px;
+  grid-template-rows: 30px 30px;
   grid-template-areas:
     "a a b"
     "a a b";
@@ -52,15 +55,18 @@ div > h3 {
 }
 
 .email-box {
-  height: 55px;
-  width: 611px;
+  height: 60px;
+  width: 655px;
   border-radius: 0;
   border: 3px solid #c04446;
 }
 
 .button-register {
-  height: 55px;
-  width: 80px;
+  background-color: #c04446;
+  color: white;
+  border: none;
+  height: 60px;
+  width: 130px;
 }
 
 @media screen and (max-width: 1480px) {
