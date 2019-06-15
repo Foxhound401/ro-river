@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="">
+    <a href="https://github.com/Foxhound401/ro-river/blob/master/src/images/ro_river_logo_04.jpg">
         <img alt="Ro River" src="https://github.com/Foxhound401/ro-river/blob/master/src/images/ro_river_logo_04.jpg" width="60" />
     </a>
 </p>
@@ -7,8 +7,8 @@
     Ro River landing page
 </h1>
 
-<a href="">
-        <img alt="Ro River" src="https://github.com/Foxhound401/ro-river/blob/master/src/images/Roriver.PNG" width="60" />
+<a href="https://github.com/Foxhound401/ro-river/blob/master/src/images/Roriver.PNG">
+        <img alt="Ro River" src="https://github.com/Foxhound401/ro-river/blob/master/src/images/Roriver.PNG" />
     </a>
     
 Some text to keep it look like a professional developer, jargons and slang... 
